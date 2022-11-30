@@ -17,7 +17,7 @@ adminlogin=()=>
   console.log(data)
   
   if (this.username=="admin"  && this.password=="123") {
-    this.route.navigate(['friendview'])
+    this.route.navigate(['innerhome'])
   } else {
     alert("invalid login")
   }

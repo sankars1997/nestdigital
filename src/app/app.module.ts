@@ -12,6 +12,9 @@ import { RouterModule,Routes } from '@angular/router';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { FormsModule } from '@angular/forms';
 import { FriendviewComponent } from './friendview/friendview.component';
+import { InnerhomeComponent } from './innerhome/innerhome.component';
+import { ViewcourseComponent } from './viewcourse/viewcourse.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 const myRoute:Routes =[
   {
@@ -33,6 +36,19 @@ component:HomeComponent
   {
     path:"adminlogin",
     component:AdminloginComponent
+  },
+  {
+    path:"friendview",
+    component:FriendviewComponent
+  },
+  {
+    path:"innerhome",
+    component:InnerhomeComponent
+  },
+  {
+    path:"viewcourse",
+    component:ViewcourseComponent
+
   }
 ]
 
@@ -45,7 +61,10 @@ component:HomeComponent
     GalleryComponent,
     NavbarComponent,
     AdminloginComponent,
-    FriendviewComponent
+    FriendviewComponent,
+    InnerhomeComponent,
+    ViewcourseComponent,
+    Navbar2Component
   ],
   imports: [
     BrowserModule,
