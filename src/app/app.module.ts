@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule,Routes } from '@angular/router';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { FormsModule } from '@angular/forms';
+import { FriendviewComponent } from './friendview/friendview.component';
 
 const myRoute:Routes =[
   {
@@ -43,7 +44,8 @@ component:HomeComponent
     AboutusComponent,
     GalleryComponent,
     NavbarComponent,
-    AdminloginComponent
+    AdminloginComponent,
+    FriendviewComponent
   ],
   imports: [
     BrowserModule,
