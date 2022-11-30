@@ -9,8 +9,8 @@ export class HomeComponent {
 data:any=[
   {
     "image1":"https://liveapps.nestdigital.com/intranest/assets/images/slider_new_2/banner_light.png",
-    "image2":"https://liveapps.nestdigital.com/intranest/assets/images/slider_new_2/3.jpg",
-    "image3":"https://liveapps.nestdigital.com/intranest/assets/images/slider_new_2/6.jpg"
+    "image2":"https://liveapps.nestdigital.com/intranest/assets/images/slider_new_2/5.jpg",
+    "image3":"https://liveapps.nestdigital.com/intranest/assets/images/slider_new_2/1.jpg"
   }
 ]
 }
