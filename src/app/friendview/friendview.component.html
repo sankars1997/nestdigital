@@ -1,31 +1,23 @@
 <app-navbar2></app-navbar2>
 <div class="container">
-    <div class="row">
+    <div class="row ">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
+            <div class="row  g-3" >
+                <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4" *ngFor="let i of data"  >
 
-
-            <table class="table">
-                <thead>
-                  <tr>
-                    
-                    <th scope="col">Name</th>
-                    <th scope="col">Friend Name</th>
-                    <th scope="col">Friend DESCRIPTION</th>
-                    <th scope="col">Friend nickname</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let i of data">
-                    
-                    <td>{{i.name}}</td>
-                    <td>{{i.friendName}}</td>
-                    <td>{{i.DescribeYourFriend}}</td>
-                    <td>{{i.friendNickName}}</td>
-                  </tr>
-                  
-                </tbody>
-              </table>
+            
+              <div class="card"  >
+                <img src="{{data2.image1}}" class="card-img-top" alt="...">
+                <div class="card-body mb-3">
+                  <h5 class="card-title">{{i.name}}</h5>
+                  <h6 class="card-title">{{i.friendName}}</h6>
+                  <h6 class="card-title">{{i.friendNickName}}</h6>
+                  <p class="card-text">{{i.DescribeYourFriend}}</p>
+                  <a href="#" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
 
 
 
