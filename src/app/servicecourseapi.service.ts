@@ -11,4 +11,8 @@ export class ServicecourseapiService {
   {
     return this.http.get("https://mylinkurcodesapp.herokuapp.com/getcourses")
   }
+  addCourses=(dataToSend:any)=>
+  {
+    return this.http.post("https://mylinkurcodesapp.herokuapp.com/addcourse",dataToSend)
+  }
 }
