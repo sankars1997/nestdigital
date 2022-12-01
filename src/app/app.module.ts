@@ -17,6 +17,10 @@ import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
 import { EmployeeregComponent } from './employeereg/employeereg.component';
+import { FriendaddComponent } from './friendadd/friendadd.component';
+import { Navbar3Component } from './navbar3/navbar3.component';
+import { Innerhome2Component } from './innerhome2/innerhome2.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 const myRoute:Routes =[
   {
@@ -59,6 +63,18 @@ component:HomeComponent
   {
     path:"employeereg",
     component:EmployeeregComponent
+  },
+  {
+    path:"innerhome2",
+    component:Innerhome2Component
+  },
+  {
+    path:"friendadd",
+    component:FriendaddComponent
+  },
+  {
+    path:"addcourse",
+    component:AddcourseComponent
   }
 ]
 
@@ -76,7 +92,11 @@ component:HomeComponent
     ViewcourseComponent,
     Navbar2Component,
     EmployeeloginComponent,
-    EmployeeregComponent
+    EmployeeregComponent,
+    FriendaddComponent,
+    Navbar3Component,
+    Innerhome2Component,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,

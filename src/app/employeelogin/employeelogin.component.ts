@@ -14,8 +14,8 @@ employeelogin=()=>
 {
   let data:any=[{"username":this.username,"password":this.password}]
   console.log(data)
-  if (this.username=="admin"  && this.password=="123") {
-    this.route.navigate(['innerhome'])
+  if (this.username=="admin"  && this.password=="12345") {
+    this.route.navigate(['innerhome2'])
   } else {
     alert("invalid login")
   }
